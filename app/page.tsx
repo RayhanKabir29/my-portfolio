@@ -1,8 +1,6 @@
 "use client";
 
 import { useEffect, useState } from "react";
-import { Layers } from "lucide-react";
-
 import { About } from "@/components/about";
 import { ContactForm } from "@/components/contact-form";
 import { Header } from "@/components/header";
@@ -35,9 +33,9 @@ export default function Home() {
   };
 
   return (
-    <div className="min-h-screen bg-[radial-gradient(circle_at_15%_5%,hsl(var(--primary)/0.14),transparent_30%),radial-gradient(circle_at_85%_28%,hsl(var(--accent)/0.16),transparent_28%),linear-gradient(180deg,hsl(var(--background)),hsl(var(--secondary)/0.42),hsl(var(--background)))] text-foreground dark:bg-[radial-gradient(circle_at_18%_6%,hsl(var(--primary)/0.18),transparent_30%),radial-gradient(circle_at_82%_34%,hsl(var(--accent)/0.14),transparent_30%),linear-gradient(180deg,hsl(35_13%_8%),hsl(34_18%_12%)_45%,hsl(35_13%_8%))]">
+    <div className="portfolio-surface min-h-screen text-foreground">
       <Header isDark={isDark} onToggleTheme={toggleTheme} />
-    <About />
+      <About />
       <Hero />
       <Projects />
       <ContactForm />

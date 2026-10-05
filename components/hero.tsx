@@ -27,8 +27,8 @@ export function Hero() {
 
   return (
     <section className="relative overflow-hidden">
-      <div className="absolute inset-0 bg-grid bg-grid-fade opacity-55" />
-      <div className="absolute left-1/2 top-0 h-[420px] w-[820px] -translate-x-1/2 rounded-full bg-gradient-to-br from-primary/20 to-accent/10 blur-3xl" />
+      <div className="absolute inset-x-0 top-0 h-px bg-gradient-to-r from-transparent via-border to-transparent" />
+      <div className="absolute left-0 top-10 h-32 w-full -rotate-1 border-y border-border/40 bg-card/35" />
       <div className="relative mx-auto max-w-7xl px-4 pb-20 pt-24 sm:px-6 sm:pb-24 sm:pt-28 lg:px-8">
         <div className="mx-auto max-w-3xl text-center">
           <div className="mb-6 inline-flex animate-fade-in items-center gap-2 rounded-full border border-border bg-card/80 px-4 py-1.5 text-sm font-semibold text-foreground/75 shadow-sm backdrop-blur">
@@ -53,8 +53,7 @@ export function Hero() {
 
           <p className="text-balance mx-auto mt-6 max-w-2xl animate-fade-up text-lg leading-relaxed text-foreground/75">
             A curated collection of production applications delivered across
-            GovTech, FinTech, HealthTech, and beyond - built with React and
-            Next.js.
+            GovTech, FinTech, HealthTech, Webflow, WordPress, and beyond.
           </p>
         </div>
 

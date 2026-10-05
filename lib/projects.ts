@@ -5,7 +5,7 @@ export interface Project {
   name: string;
   description: string;
   technologies: string[];
-  framework: 'React' | 'Next.js';
+  framework: 'React' | 'Next.js' | 'Webflow' | 'WordPress';
   status: ProjectStatus;
   repoUrl: string;
   category: string;
@@ -265,6 +265,61 @@ export const projects: Project[] = [
     repoUrl: 'https://github.com/innofast-tech/hospital-management-doctor-panel',
     category: 'HealthTech',
   },
+  {
+    id: 24,
+    name: 'Fondation Audition',
+    description:
+      'Responsive Webflow website for a Swiss hearing-health foundation, presenting programs, resources, and organization information with a polished editorial experience.',
+    technologies: ['Webflow', 'CMS', 'Responsive Design'],
+    framework: 'Webflow',
+    status: 'Delivered',
+    repoUrl: 'https://fondation-audition.ch/',
+    category: 'Webflow Development',
+  },
+  {
+    id: 25,
+    name: 'TASQ',
+    description:
+      'Modern Webflow marketing website for a service-focused brand, built with responsive sections, smooth content flow, and clear conversion paths.',
+    technologies: ['Webflow', 'CMS', 'Responsive Design'],
+    framework: 'Webflow',
+    status: 'Delivered',
+    repoUrl: 'https://tasq-new.webflow.io/',
+    category: 'Webflow Development',
+  },
+  {
+    id: 26,
+    name: 'Le Pactole',
+    description:
+      'Webflow website for a hospitality and lifestyle brand, showcasing the venue experience through a clean, mobile-friendly visual presentation.',
+    technologies: ['Webflow', 'CMS', 'Responsive Design'],
+    framework: 'Webflow',
+    status: 'Delivered',
+    repoUrl: 'https://le-pactole-61fc3812692289995ea90c81d722.webflow.io/',
+    category: 'Webflow Development',
+  },
+  {
+    id: 27,
+    name: 'Forsa Properties',
+    description:
+      'WordPress real-estate website for property discovery, brand presentation, and lead generation across residential and investment listings.',
+    technologies: ['WordPress', 'CMS', 'Responsive Design'],
+    framework: 'WordPress',
+    status: 'Delivered',
+    repoUrl: 'https://forsaproperties.net/',
+    category: 'WordPress Development',
+  },
+  {
+    id: 28,
+    name: 'Noya Borga',
+    description:
+      'WordPress business website with responsive pages, content management, and a clean public-facing experience for visitors and prospects.',
+    technologies: ['WordPress', 'CMS', 'Responsive Design'],
+    framework: 'WordPress',
+    status: 'Delivered',
+    repoUrl: 'https://noyaborga.com/',
+    category: 'WordPress Development',
+  },
 ];
 
 export const statusConfig: Record<
@@ -308,4 +363,6 @@ export const categoryColors: Record<string, string> = {
   Civic: 'text-cyan-600 dark:text-cyan-400',
   Commerce: 'text-fuchsia-600 dark:text-fuchsia-400',
   EdTech: 'text-indigo-600 dark:text-indigo-400',
+  'Webflow Development': 'text-purple-600 dark:text-purple-400',
+  'WordPress Development': 'text-blue-700 dark:text-blue-300',
 };
