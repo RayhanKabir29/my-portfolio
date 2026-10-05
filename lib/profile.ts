@@ -15,15 +15,16 @@ export interface Profile {
 }
 
 export const profile: Profile = {
-  name: 'Rathan Kabir',
-  headline: 'Front-End Developer · React.js Specialist',
+  name: 'Rayhan Kabir',
+  headline:
+    'Front End Developer · React Developer · Next.js Developer · Webflow Developer · WordPress Developer',
   location: 'Bangladesh',
   email: 'rayhan.kabir29@gmail.com',
   phone: '+8801743274189',
   bio: [
-    'With over three years of hands-on experience in front-end development using React.js, I build dynamic, responsive, and user-friendly interfaces. I am proficient in JavaScript, HTML, and CSS, and have practical experience with modern build tools like Webpack and Babel for efficient, scalable applications.',
-    'I have integrated RESTful APIs and third-party services across various projects, collaborating closely with backend teams and UI/UX designers. I prioritize clean, maintainable code and follow best practices for performance optimization and cross-browser compatibility.',
-    'My process includes thorough debugging, unit testing, and clear documentation to ensure code quality and team transparency. I stay current with the latest front-end technologies and bring a proactive mindset to every project.',
+    'I am a front end developer with over three years of hands-on experience building responsive, user-friendly interfaces with React.js, Next.js, JavaScript, HTML, CSS, and modern tooling.',
+    'As a React developer and Next.js developer, I have delivered production web apps, admin dashboards, public websites, API integrations, and performance-focused user experiences across multiple industries.',
+    'I also work as a Webflow developer and WordPress developer for marketing websites, CMS-driven pages, and business websites that need clean design, reliable editing workflows, and strong responsive behavior.',
   ],
   socials: [
     { label: 'GitHub', href: 'https://github.com/RayhanKabir29', icon: 'github' },

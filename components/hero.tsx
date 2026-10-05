@@ -38,22 +38,27 @@ export function Hero() {
 
           <h1 className="text-4xl font-bold tracking-tight text-balance sm:text-5xl lg:text-6xl">
             {mounted ? (
-              <SplitText text="Building software that" stagger={34} />
+              <SplitText text="Front End Developer" stagger={34} />
             ) : (
-              'Building software that'
+              'Front End Developer'
             )}
             <span className="mt-2 block bg-gradient-to-r from-primary to-accent bg-clip-text text-transparent">
               {mounted ? (
-                <SplitText text="ships and scales" delay={420} stagger={34} />
+                <SplitText
+                  text="React, Next.js & CMS websites"
+                  delay={420}
+                  stagger={28}
+                />
               ) : (
-                'ships and scales'
+                'React, Next.js & CMS websites'
               )}
             </span>
           </h1>
 
           <p className="text-balance mx-auto mt-6 max-w-2xl animate-fade-up text-lg leading-relaxed text-foreground/75">
-            A curated collection of production applications delivered across
-            GovTech, FinTech, HealthTech, Webflow, WordPress, and beyond.
+            Portfolio of a React developer, Next.js developer, Webflow
+            developer, and WordPress developer building responsive websites and
+            production web apps.
           </p>
         </div>
 
